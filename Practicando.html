@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pracitanco.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="padre">
+        
+        <div class="cabecera">
+            <h1>Cabecera(h1)</h1>
+            <p>Los titulos h1 son de la famila de arial son del ta単amo 28pt y negrita, el color de estos titulos sera azul</p>
+            <p>Esta cabcera es de color amarillo y las cojas de abajo de esta caja estan alineadas con flex. Esta caja esta en la cabecerapero solo contiene el texto 
+                las cajas contenedoras a la que afecta flex son naranjas, la caja que las contiene roja, las cajas tiene la propiedad que las hace
+                que esten alineadas y hay un hueco(gap) entre ellas, de 10pt, ademas de tener un padding de 10pt y los parrafos son de la familia de century ggothic y de tama単o 11pt.
+            </p>
+        </div>
+
+        <div class="cajasNaranjas">
+            <div class="cajaNaranja1">
+                <p>Las listas y los aprrafos de los divs que estan contenidos en la cabcera seran de la familia arial como h1 pero de tama単o 12</p>
+                <p>Elementos que hay que tener en cuenta</p>
+                <ul>
+                    <li>cerrar bien los divs</li>
+                    <li>Tener cuidado con la posicion</li>
+                </ul>
+            </div>
+
+            <div class="cajaNaranja1">
+                <p>Estos textos son de ejemplo, recuerda que no se pueden poner la etiqueta br a no ser que la necesites para algo. Y que aunque sean
+                    texto de ejemplo debes ponerlo tipo parrafo.
+                </p>
+            </div>
+
+            <div class="cajaNaranja1">
+                <p>Estos textos son de ejemplo, recuerda que no se pueden poner la etiqueta br a no ser que la necesites para algo. Y que aunque sean
+                    texto de ejemplo debes ponerlo tipo parrafo.
+                </p>
+            </div>
+        </div>
+
+        <div class="cajaMorada">
+
+            <div class="cajaMorada1">
+                <h2>GUIA PARA ESTA PARTE (H2)</h2>
+                <p>h2 es del color blanco, lo demas lo dejamos por defecto</p>
+                <p>En esta caja hay tres cajas que se van a alinear con grid, la cuadricula a crear es de 4x4, la primera caja ocupa toda la fila de arriba
+                    haced las cajas con fracciones, por ejemplo, con una fraccion. La caja central es verde y las distintas cajas son moradas. Hay na separacion
+                    entre filas y columnas que permite ver la cuadricula ya que el fondo de la caja es verde y las otras cajas son moradas. A単adimos padding 10pt y 
+                    justificamos el texto.
+                </p>
+            </div>
+
+            <div class="cajaMorada2">
+                Tu nombre: <input type="text">
+                Tu direccion de correo: <input type="email">
+                <p>Selecciona como te ha salido</p>
+                <p><input type="checkbox"> Bien </p>
+                <p><input type="checkbox"> Mal </p>
+                <p><input type="checkbox"> Regular </p>
+                <p>Las opciones del desplegable son JavaScript, PHP, C#, C++</p>
+                <p>Lenguaje</p>
+                <select>
+                    <option value="">Java</option>
+                    <option value="">PHP</option>
+                    <option value="">C#</option>
+                    <option value="">C++</option>
+                </select>
+                <p><input type="submit"></p>
+            </div>
+
+            <div class="cajaMorada3">
+
+                <p>Ejemplo de fusion de celdas</p>
+
+                <table border="1px">
+                    <tr>
+                        <td>Fusion de celdas</td>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                        <th>Columna 3</th>
+                        <th>Columna 4</th>
+                        <th>Columna 5</th>
+                    </tr>
+
+                    <tr>
+                        <th>Fila 1</th>
+                        <td rowspan="2">A</td>
+                        <td colspan="2">B</td>
+                        <td colspan="2">C</td>
+                    </tr>
+
+                    <tr>
+                        <th>Fila 2</th>
+                        <td rowspan="2">D</td>
+                        <td colspan="2">E</td>
+                        <td rowspan="2">F</td>
+                    </tr>
+
+                    <tr>
+                        <th>Fila 3</th>
+                        <td rowspan="2">G</td>
+                        <td rowspan="2" colspan="2">H</td>
+                    </tr>
+
+                    <tr>
+                        <th>Fila 4</th>
+                        <td>I</td>
+                        <td>J</td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
